@@ -1,0 +1,20 @@
+<view class="itemView">用户名：
+    <input class="input" name="userName" placeholder="请输入用户名" 
+    bindinput="userNameInput"/>
+  </view>
+<view class="itemView">密    码：
+    <input class="input" password placeholder="请输入密码"
+     bindinput="passWdInput" />
+  </view>
+<view class="viewName" style="background-color:#fbf9fe">
+  <button class="loginBtn" bindtap="loginBtnClick">登录</button>
+  <button class="resetBtn" bindtap="resetBtnClick">清除</button>
+</view>
+<view>{{infoMess}}</view>
+<view>{{userName}}</view>
+<view>{{passWd}}</view>
+<view class="viewName" style="margin-top: 60px;">
+  <navigator url="Component/TextInput/TextInput">
+    <text class="view-Name">各类型输入框展示</text>
+  </navigator>
+</view>
